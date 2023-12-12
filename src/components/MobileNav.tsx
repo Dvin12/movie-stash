@@ -3,7 +3,7 @@ import { HiMenuAlt3 } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
 
 export default function MobileNav() {
-  const [isActive, setIsActive] = useState(true);
+  const [isActive, setIsActive] = useState(false);
 
   function handleClick() {
     setIsActive((active) => !active);
@@ -12,7 +12,7 @@ export default function MobileNav() {
   return (
     <>
       <img src="./public/images/logo.png" alt="" className="w-[130px]" />
-      <button className=" text-4xl text-white" onClick={handleClick}>
+      <button className=" text-Bone text-4xl" onClick={handleClick}>
         <HiMenuAlt3 />
       </button>
 
@@ -22,15 +22,15 @@ export default function MobileNav() {
         } bg-slate-600/5 p-6 backdrop-blur-md duration-200`}
       >
         <button
-          className="absolute right-6  text-4xl text-white"
+          className="text-Bone absolute  right-6 text-4xl"
           onClick={handleClick}
         >
           <IoClose />
         </button>
-        <button className="mt-16 w-full rounded bg-orange-500 py-2 text-white">
+        <button className="bg-BurntSienna text-RaisinBlack mt-16 w-full rounded py-2  font-medium">
           Sign Up
         </button>
-        <ul className="my-6 flex flex-col gap-2 text-right text-lg text-white">
+        <ul className="text-Bone my-6 flex flex-col gap-2 text-right text-lg">
           <li>Movies</li>
           <li>Lists</li>
         </ul>

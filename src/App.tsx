@@ -6,6 +6,7 @@ import Error from "./pages/Error/Error";
 import Home from "./pages/Home/Home";
 import Movies from "./pages/Movies/Movies";
 import Lists from "./pages/Lists/Lists";
+import Background from "./components/Background";
 
 function Layout() {
   return (
@@ -13,6 +14,7 @@ function Layout() {
       <Navigation />
       <Outlet />
       <Footer />
+      <Background />
     </Main>
   );
 }
