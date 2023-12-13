@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import PopularSection from "./components/PopularSection";
+import Visit from "./components/Visit";
 
 // Mockup
 
@@ -55,12 +56,15 @@ const popularShows = [
   },
 ];
 
+// //////////////////////////////
+
 export default function Home() {
   return (
     <section className="relative z-20 ">
       <Header />
       <PopularSection type="movies" popular={popularMovies} />
       <PopularSection type="TV shows" popular={popularShows} />
+      <Visit />
     </section>
   );
 }

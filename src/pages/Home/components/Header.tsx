@@ -6,7 +6,7 @@ export default function Header() {
   const image3 = "./public/images/image3.jpg";
 
   return (
-    <header className="grid grid-cols-1 items-center justify-center px-6 py-5">
+    <header className="grid grid-cols-1 items-center justify-center px-6 py-8">
       <section className="relative">
         <div className="flex items-center justify-center gap-3">
           <ImageCard image={image1} />
@@ -16,7 +16,7 @@ export default function Header() {
           <ImageCard image={image3} />
         </div>
       </section>
-      <section className="z-20 mt-10 flex flex-col items-center justify-center gap-5 text-Bone">
+      <section className="z-20 mt-12 flex flex-col items-center justify-center gap-6 text-Bone">
         <div className="flex flex-col items-center justify-center pt-4 text-4xl font-bold tracking-tighter ">
           <span>COLLECT</span>
           <span>ORGANIZE</span>
@@ -24,7 +24,8 @@ export default function Header() {
         </div>
         <p className="text-center font-medium">
           Streamline your movie experience with our ultimate movie stash app!
-          Effortlessly gather, organize, and rate your favourite films with ease
+          Effortlessly gather, organize, and rate your favourite films and TV
+          shows with ease
         </p>
         <button className=" w-[60%] rounded-sm bg-BurntSienna py-2 font-semibold text-Bone">
           Sign Up
