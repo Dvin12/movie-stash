@@ -6,7 +6,7 @@ export default function Header() {
   const image3 = "./public/images/image3.jpg";
 
   return (
-    <header className="grid grid-cols-1 items-center justify-center py-5">
+    <header className="grid grid-cols-1 items-center justify-center px-6 py-5">
       <section className="relative">
         <div className="flex items-center justify-center gap-3">
           <ImageCard image={image1} />
