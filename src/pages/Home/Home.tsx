@@ -62,9 +62,8 @@ export default function Home() {
   return (
     <section className="relative z-20 ">
       <Header />
-      <PopularSection type="movies" popular={popularMovies} />
-      <PopularSection type="TV shows" popular={popularShows} />
-      <Visit />
+      <PopularSection type="movies" popular={popularMovies} visit="movies" />
+      <PopularSection type="TV shows" popular={popularShows} visit="tvshows" />
     </section>
   );
 }

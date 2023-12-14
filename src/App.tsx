@@ -7,6 +7,7 @@ import Home from "./pages/Home/Home";
 import Movies from "./pages/Movies/Movies";
 import Lists from "./pages/Lists/Lists";
 import Background from "./components/Background";
+import TVShows from "./pages/TVShows/TVShows";
 
 function Layout() {
   return (
@@ -33,6 +34,11 @@ const router = createBrowserRouter([
       {
         path: "/movies",
         element: <Movies />,
+      },
+
+      {
+        path: "/tvshows",
+        element: <TVShows />,
       },
 
       {

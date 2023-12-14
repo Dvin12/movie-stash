@@ -2,8 +2,9 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/sea-green";
 
 import MovieCard from "../../../components/MovieCard";
+import Visit from "./Visit";
 
-export default function PopularSection({ type, popular }) {
+export default function PopularSection({ type, popular, visit }) {
   return (
     <section className="mt-10">
       <div className="flex items-center gap-[2px] px-6">
@@ -15,8 +16,8 @@ export default function PopularSection({ type, popular }) {
       <Splide
         options={{
           pagination: false,
-          fixedWidth: "14rem",
-          gap: "1rem",
+          fixedWidth: "15rem",
+          gap: "2rem",
           padding: "4px",
         }}
       >
@@ -26,6 +27,7 @@ export default function PopularSection({ type, popular }) {
           </SplideSlide>
         ))}
       </Splide>
+      <Visit visit={visit} />
     </section>
   );
 }

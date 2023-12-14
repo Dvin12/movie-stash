@@ -17,7 +17,7 @@ export default function Header() {
         </div>
       </section>
       <section className="z-20 mt-12 flex flex-col items-center justify-center gap-6 text-Bone">
-        <div className="flex flex-col items-center justify-center pt-4 text-4xl font-bold tracking-tighter ">
+        <div className="flex flex-col items-center justify-center pt-4 text-4xl font-bold leading-[36px] tracking-tight ">
           <span>COLLECT</span>
           <span>ORGANIZE</span>
           <span>RATE</span>
@@ -27,7 +27,7 @@ export default function Header() {
           Effortlessly gather, organize, and rate your favourite films and TV
           shows with ease
         </p>
-        <button className=" w-[60%] rounded-sm bg-BurntSienna py-2 font-semibold text-Bone">
+        <button className=" w-[60%] rounded-sm bg-BurntSienna py-2 font-semibold text-Bone shadow-lg">
           Sign Up
         </button>
       </section>
