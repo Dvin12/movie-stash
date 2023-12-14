@@ -1,6 +1,5 @@
 import Header from "./components/Header";
 import PopularSection from "./components/PopularSection";
-import Visit from "./components/Visit";
 
 // Mockup
 

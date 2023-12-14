@@ -2,7 +2,7 @@ import { FaRegStar } from "react-icons/fa";
 
 export default function MovieCard({ card }) {
   return (
-    <section className=" my-4  h-[360px] rounded-xl border-[1px] border-Bone/10 bg-Bone/5 p-4 backdrop-blur-sm">
+    <section className=" my-4  h-[360px] rounded-xl border-[1px] border-Bone/10 bg-Bone/5 p-4 shadow-lg backdrop-blur-sm">
       <img
         src={card.poster}
         alt=""

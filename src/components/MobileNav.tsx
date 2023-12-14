@@ -33,9 +33,11 @@ export default function MobileNav() {
         >
           <IoClose />
         </button>
-        <button className="mt-16 w-full rounded bg-BurntSienna py-2 font-medium  text-RaisinBlack">
-          Sign Up
-        </button>
+        <NavLink to={"/signup"}>
+          <button className="mt-16 w-full rounded bg-BurntSienna py-2 font-medium  text-RaisinBlack">
+            Sign Up
+          </button>
+        </NavLink>
         <ul className="my-6 flex flex-col gap-2 text-right text-lg text-Bone">
           <NavLink to={"/movies"}>
             <li>Movies</li>
